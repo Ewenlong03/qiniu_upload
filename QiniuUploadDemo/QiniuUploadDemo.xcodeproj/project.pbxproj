@@ -326,7 +326,7 @@
 				TargetAttributes = {
 					85DD38371D7ABA3F006A77C2 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 5M34M6CU7U;
+						DevelopmentTeam = T4WC8J2X7M;
 					};
 					85DD38501D7ABA3F006A77C2 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -345,6 +345,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -564,11 +565,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 5M34M6CU7U;
+				DEVELOPMENT_TEAM = T4WC8J2X7M;
 				INFOPLIST_FILE = QiniuUploadDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "zach-hu.QiniuUploadDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "zach-hu.QiniuUploadDemo01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;

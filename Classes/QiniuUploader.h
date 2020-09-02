@@ -15,8 +15,8 @@
 
 @property (assign, atomic) NSInteger maxConcurrentNumber;
 @property (assign, atomic, readonly) Boolean isRunning;
-@property (retain, atomic) NSArray * _Nonnull files;
-
+@property (strong, atomic) NSArray * _Nonnull files;
+@property (strong, nonatomic) NSString * _Nonnull qnUploadUrl;
 
 + (id _Nullable)sharedUploader;
 
