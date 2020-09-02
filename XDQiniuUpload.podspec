@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
-  s.name         = "QiniuUpload"
-  s.version      = "3.0.0"
+  s.name         = "XDQiniuUpload"
+  s.version      = "1.0.0"
   s.summary      = "支持批量上传的七牛上传sdk，音频、视频、图片都是支持滴"
 
   s.description  = <<-DESC
@@ -13,17 +13,17 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "https://github.com/huhuanming/qiniu_upload"
+  s.homepage     = "https://github.com/ewenlong03/qiniu_upload"
 
   s.license      = "MIT"
   
-  s.authors = { "huhuanming" => "workboring@gmail.com"}
+  s.authors = { "ewenlong03" => "ewenlong03@163.com"}
 
   s.ios.deployment_target = '7.0'
 
   s.osx.deployment_target = '10.9'
 
-  s.source       = { :git => "https://github.com/huhuanming/qiniu_upload.git", :tag => "3.0.0" }
+  s.source       = { :git => "https://github.com/ewenlong03/qiniu_upload.git", :tag => "1.0.0" }
 
   s.source_files  = "Classes", "Classes/*.{h,m}"
   

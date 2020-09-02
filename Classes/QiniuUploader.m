@@ -51,7 +51,7 @@ typedef void (^UploadAllFilesCompleteHandler)(void);
         config = nil;
     }
     #ifdef DEBUG
-        [QiniuUploader checkVersion];
+//        [QiniuUploader checkVersion];
     #endif
     return self;
 }
